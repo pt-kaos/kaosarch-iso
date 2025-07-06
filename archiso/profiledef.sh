@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="kiro"
-iso_label="kiro-v25.07.06.01"
-iso_publisher="kiro"
-iso_application="Kiro Live/Rescue CD"
+iso_name="kaosarch"
+iso_label="kaosarch-v25.07.06.01"
+iso_publisher="kaosarch"
+iso_application="kaosarch Live/Rescue CD"
 iso_version="v25.07.06.01"
 install_dir="arch"
 buildmodes=('iso')

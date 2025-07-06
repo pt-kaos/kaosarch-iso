@@ -119,14 +119,14 @@ echo
 
 	desktop="xfce"
 
-	kiroVersion='v25.07.06.01'
+	kaosarchVersion='v25.07.06.01'
 
-	isoLabel='kiro-'$kiroVersion'-x86_64.iso'
+	isoLabel='kaosarch-'$kaosarchVersion'-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 84-1"
-	buildFolder=$HOME"/kiro-build"
-	outFolder=$HOME"/kiro-Out"
+	buildFolder=$HOME"/kaosarch-build"
+	outFolder=$HOME"/kaosarch-Out"
 
 	# If you want to add packages from the chaotics-aur repo then
 	# change the variable to true and add the package names
@@ -244,7 +244,7 @@ echo
 	tput sgr0
 	echo "################################################################## "
 	echo "Building the desktop                   : "$desktop
-	echo "Building version                       : "$kiroVersion
+	echo "Building version                       : "$kaosarchVersion
 	echo "Iso label                              : "$isoLabel
 	echo "Build folder                           : "$buildFolder
 	echo "Out folder                             : "$outFolder

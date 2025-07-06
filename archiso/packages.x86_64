@@ -56,30 +56,35 @@ libfido2
 libusb-compat
 linux
 linux-atm
-linux-firmware-amdgpu
+#
+#############################################################################
+## ATENTION TO THE SELECTED FIRMWARE - I REMOVED WHAT I THINK I DON'T NEED
+#############################################################################
+
+#linux-firmware-amdgpu
 linux-firmware-atheros
 linux-firmware-broadcom
 linux-firmware-cirrus
 linux-firmware-intel
-linux-firmware-liquidio
+#linux-firmware-liquidio
 linux-firmware-marvell
 linux-firmware-mediatek
-linux-firmware-mellanox
-linux-firmware-nfp
+#linux-firmware-mellanox
+#linux-firmware-nfp
 linux-firmware-nvidia
 linux-firmware-other
-linux-firmware-qcom
+#linux-firmware-qcom
 linux-firmware-qlogic
-linux-firmware-radeon
+#linux-firmware-radeon
 linux-firmware-realtek
 linux-firmware-whence
 #livecd-sounds
 lsscsi
 lvm2
-#lynx
+lynx
 man-db
 man-pages
-#mc
+mc
 mdadm
 memtest86+
 memtest86+-efi
@@ -94,7 +99,7 @@ nbd
 ndisc6
 nfs-utils
 nilfs-utils
-#nmap
+nmap
 ntfs-3g
 nvme-cli
 open-iscsi
@@ -190,7 +195,7 @@ nvidia-settings
 base-devel
 
 ###virtual box or vmware
-virtualbox-guest-utils
+#virtualbox-guest-utils
 
 ###packages for dual boot
 os-prober
@@ -267,7 +272,7 @@ poppler-qt5
 #########################################################################
 
 ###applications
-chromium
+#chromium
 dmenu
 firefox
 galculator
@@ -309,7 +314,7 @@ catfish
 cronie
 dconf-editor
 dex
-#discord
+discord
 duf
 evince
 expac
@@ -383,6 +388,7 @@ hardcode-fixer-git
 inxi
 mintstick
 neofetch-git
+neovim
 paru-git
 python-pyparted
 python-pywal
@@ -509,30 +515,29 @@ wttr
 xcolor
 
 ###########################################################################
-####                               NEMESIS REPO CHADWM
+####       Some more packages
 ###########################################################################
 
 alacritty
-edu-chadwm-git
 autorandr
-dash
+#dash
 dmenu
 feh
 gcc
-lolcat
+#lolcat
 make
 picom-git
 polkit-gnome
 rofi
-sxhkd
+#sxhkd
 ttf-font-awesome
 ttf-jetbrains-mono-nerd
-ttf-meslo-nerd-font-powerlevel10k
+#ttf-meslo-nerd-font-powerlevel10k
 volumeicon
 xorg-xsetroot
 
-ananicy-cpp
-cachyos-ananicy-rules-git
+#ananicy-cpp
+#cachyos-ananicy-rules-git
 
 ###########################################################################
 ####                           PERSONAL_REPO aka LOCAL REPO
