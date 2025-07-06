@@ -1,21 +1,29 @@
-# Kiro iso
+# KaosArch Calamares configuration
 
-![Kiro Logo](kiro.jpg)
+![KaosArch Logo](KaosArch.png)
 
-![Kiro Logo](kiro-xfce.jpg)
+######################################################################
+######################################################################
+##########          THIS PAGE IS UNDER CONTRUCTION           #########
+######################################################################
+######################################################################
 
-![Kiro Logo](kiro-chadwm.jpg)
+![KaosArch Logo](kiro-xfce.jpg)
+
+![KaosArch Logo](kiro-chadwm.jpg)
 
 # Download
 
-You can download the latest Kiro ISO from [our SourceForge page](https://sourceforge.net/projects/kiro/files/).
+You can download the latest KaosArch ISO from [our SourceForge page](https://sourceforge.net/projects/kiro/files/).
 
-**Kiro** is a customizable Arch Linux ISO builder based on the ArcoLinux project. It provides a simple way to build your own Arch-based installation medium with your choice of packages, settings, and scripts.
+**KaosArch** is a customizable Arch Linux ISO builder based on the ArcoLinux project. It provides a simple way to build your own Arch-based installation medium with your choice of packages, settings, and scripts.
 
-Kiro is my personal choice:
+This distribution was created using the excelent tutorial by [Eric Dubois](https://www.youtube.com/@ErikDubois)
+You can find the tutorial here: [](https://youtu.be/3jdKH6bLgUE)
 
-- uefi
-- systemd-boot
+KaosArch is my personal choice:
+
+- systemboot
 - ext4
 - sddm
 - xfce4 and chadwm
@@ -29,14 +37,6 @@ Kiro is my personal choice:
 - Script-driven: reproducible and automatable
 - Modular structure for easy extension
 - Lightweight and minimal by default
-
-## Kiro repo
-
-```
-[kiro_repo]
-SigLevel = Never
-Server = https://kirodubes.github.io/$repo/$arch
-```
 
 ## 📦 Requirements
 
@@ -56,16 +56,9 @@ https://youtu.be/3jdKH6bLgUE
 
 Live long and prosper
 
+
 # Major changes after the videos on youtube
 
-- Calamares moved from https://github.com/calamares/calamares to https://codeberg.org/Calamares/calamares - new pkgbuild
-- kiro-system-installation package is no longer necessary and removed
-- kiro-calamares-config has now several new modules replacing bash scripts
+Make sure you read the major change at the bottom of the readme file on 
 
-When studying the Buildra tutorial consider all the changes after the video and more will surely follow. 
-
-Compare, compare and compare.
-
-https://youtu.be/3jdKH6bLgUE
-
-https://youtu.be/mH52To8DvlI
+https://github.com/kirodubes/kiro-iso
