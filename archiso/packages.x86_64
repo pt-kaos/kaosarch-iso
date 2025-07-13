@@ -405,7 +405,7 @@ yay-git
 ###########################################################################
 
 calamares
-#kaosarch-calamares-config
+kaosarch-calamares-config
 
 #adobe-source-han-sans-jp-fonts
 #adobe-source-han-sans-kr-fonts
@@ -536,8 +536,8 @@ ttf-jetbrains-mono-nerd
 volumeicon
 xorg-xsetroot
 
-#ananicy-cpp
-#cachyos-ananicy-rules-git
+ananicy-cpp
+cachyos-ananicy-rules-git
 
 ###########################################################################
 ####                           PERSONAL_REPO aka LOCAL REPO
