@@ -8,14 +8,6 @@
 ######################################################################
 ######################################################################
 
-![KaosArch Logo](kiro-xfce.jpg)
-
-![KaosArch Logo](kiro-chadwm.jpg)
-
-# Download
-
-You can download the latest KaosArch ISO from [TBD](https://sourceforge.net/projects/kiro/files/).
-
 **KaosArch** is a customizable Arch Linux ISO builder based on the ArcoLinux project. It provides a simple way to build your own Arch-based installation medium with your choice of packages, settings, and scripts.
 
 This distribution was created using the excelent tutorial by [Eric Dubois](https://www.youtube.com/@ErikDubois)
@@ -26,7 +18,7 @@ KaosArch is my personal choice:
 - systemboot
 - ext4
 - sddm
-- xfce4 and chadwm
+- awesomewm
 - a lot of free software
 
 ## 🚀 Features
@@ -38,7 +30,7 @@ KaosArch is my personal choice:
 - Modular structure for easy extension
 - Lightweight and minimal by default
 
-## 📦 Requirements
+## 📦 Requi:wqrements
 
 - Arch Linux or Arch-based system (for building) - access to necessary repos (keys - mirrors)
 - `archiso` package
