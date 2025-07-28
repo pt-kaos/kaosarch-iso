@@ -1,12 +1,6 @@
-# KaosArch Calamares configuration
+# KaosArch ISO configuration
 
-![KaosArch Logo](KaosArch-Banner.png)
-
-######################################################################
-######################################################################
-##########          THIS PAGE IS UNDER CONTRUCTION           #########
-######################################################################
-######################################################################
+![KaosArch Banner](KaosArch-Banner.png)
 
 **KaosArch** is a customizable Arch Linux ISO builder based on the ArcoLinux project.
 This is built with my own settings, packages and look&feel.
