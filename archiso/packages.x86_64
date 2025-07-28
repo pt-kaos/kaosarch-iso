@@ -3,11 +3,11 @@
 #####################################################################
 
 ###archiso
-alsa-utils
-amd-ucode
+#amd-ucode
+intel-ucode
 arch-install-scripts
 #archinstall
-#b43-fwcutter
+# b43-fwcutter
 base
 #bcachefs-tools
 bind
@@ -183,6 +183,7 @@ xf86-input-libinput
 #xf86-video-openchrome
 #xf86-video-vesa
 #xf86-video-vmware
+xf86-video-qxl          # Often used in virtual environments-QEMU/KVM-for improved functionality
 mesa
 
 ###hardware video support
@@ -253,6 +254,7 @@ xdg-user-dirs
 cups
 cups-filters
 cups-pdf
+cups-pk-helper
 ghostscript
 gsfonts
 gutenprint
@@ -293,6 +295,7 @@ lm_sensors
 
 ###fonts
 adobe-source-sans-fonts
+awesome-terminal-fonts
 noto-fonts
 ttf-dejavu
 ttf-droid
@@ -300,15 +303,25 @@ ttf-hack
 ttf-roboto
 ttf-roboto-mono
 ttf-ubuntu-font-family
+ttf-nerd-fonts-symbols
+ttf-wps-fonts
+ttf-ms-fonts
+ttf-font-awesome
+ttf-jetbrains-mono-nerd
+ttf-font-awesome
+ttf-jetbrains-mono-nerd
+#ttf-meslo-nerd-font-powerlevel10k
 
 ###themes
 
 kvantum-qt5
 
 ###utilities
+7zip
 arandr
+archiso
 bash-completion
-baobab
+baobab      # A graphic directory tree analyser
 bat
 catfish
 cronie
@@ -377,6 +390,7 @@ mkinitcpio-openswap
 
 ###utilities
 alacritty
+alacritty-themes
 appstream
 appstream-qt5
 archlinux-tools
@@ -395,7 +409,7 @@ python-pywal
 rate-mirrors
 sublime-text-4
 the_silver_searcher
-visual-studio-code-bin
+#visual-studio-code-bin
 wttr
 yad
 yay-git
@@ -417,22 +431,23 @@ kaosarch-system-installation
 ###########################################################################
 
 accountsservice
-sddm-git
+sddm
 
 ###########################################################################
 ####                           DESKTOP MANAGERS
 ###########################################################################
 
-xfce4
-xfce4-goodies
+awesome
+qtile
+#xfce4
+#xfce4-goodies
+
 
 ###########################################################################
 ####                       APPS
 ###########################################################################
 
 brave-bin
-btop
-devtools
 fd
 fish
 inetutils
@@ -450,12 +465,8 @@ ripgrep-all
 sparklines-git
 time
 tldr
-ttf-ms-fonts
-ttf-font-awesome
-ttf-jetbrains-mono-nerd
 variety
 vimix-cursors
-yad
 
 ###########################################################################
 ####                               CHAOTICS AUR
@@ -518,7 +529,6 @@ xcolor
 ####       Some more packages
 ###########################################################################
 
-alacritty
 autorandr
 #dash
 dmenu
@@ -530,9 +540,6 @@ picom-git
 polkit-gnome
 rofi
 #sxhkd
-ttf-font-awesome
-ttf-jetbrains-mono-nerd
-#ttf-meslo-nerd-font-powerlevel10k
 volumeicon
 xorg-xsetroot
 
@@ -551,4 +558,197 @@ cachyos-ananicy-rules-git
 
 kaosarch-awesome-git
 
+# APPS
+cherrytree
+irssi       # IRC Chat Client
+kodi
+kodi-addon-pvr-iptvsimple
+libreoffice-fresh
+minecraft-launcher
+mupdf
+mupdf-tools
+ristretto
+spotify
+spotifywm-git
+thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-volman
+thunderbird
+w3m             #Terminal web browser
+whatsapp-nativefier
 
+# Desktop
+a-candy-beauty-icon-theme-git
+bibata-cursor-theme-bin
+conky-lua-archers
+# exo       #XFCE Tool
+gmrun       #Took to run programs. Used in AwesoimeWM
+kvantum
+lxappearance
+papirus-icon-theme
+picom
+vicious                 # Widgets for the awesome Window Manager
+xclip
+xfce4-appfinder
+xfce4-notifyd
+xfce4-panel
+xfce4-power-manager
+xfce4-screenshooter
+xfce4-settings
+xfce4-taskmanager
+# Needed for the Awesome Window Manager
+xkeyboard-config        # Needed for Awesome Window Manager
+xorg-server-xephyr      # A nested X server that runs as an X application
+xorg-setxkbmap
+xorg-xauth
+xorg-xinput
+xorg-xkbcomp
+xorg-xrandr
+
+
+# Development
+autoconf
+automake
+boost-libs
+clang
+cmake
+ctags
+debugedit
+lazygit
+gtk3
+gittyup
+gitfind
+github-cli
+go
+luarocks
+jre-openjdk
+jq                      # Command line JSON Processor
+jsoncpp                 # C++ library for interacting with JSON
+npm
+python-pipx
+python-virtualenv       # Atualmente existe o uv que será melhor mas não está no pacman
+tk
+
+
+# Eletronica
+arduino-ide
+arduino-cli
+platformio-core-udev
+platformio-core
+
+# Containers
+container-diff
+dive
+docker
+docker-compose
+docker-buildx
+kubectl
+
+# Arch Linux
+archlinux-keyring
+arcolinux-bootloader-grub-git
+grub-customizer
+sane-airscan            # Scanner
+unclutter               # Hide the mouse Cursor
+nodejs-material-design-icons    # Icons from Google
+# kitty
+acpilight               # control backlights (and other hardware lights)
+light                   # control backlights (and other hardware lights)
+linux-firmware
+paru-bin
+# Not Sure if necessary
+#tk                      # Windowing toolkit for use with tcl (dynamic programing language)
+
+# CLOUD SERVICES
+dropbox
+
+# Virtualization
+edk2-ovmf
+libguestfs
+libvirt
+qemu-desktop
+spice-vdagent
+vde2
+virt-manager
+virt-viewer
+virt-install
+virtualbox-guest-iso
+# x-resize                # YAY - A manual implementation of auto resizing for non-GNOME environments (like XFCE) running under Spice/Libvirt
+
+# Network tools
+#openvswitch
+#swtpm
+bmon # Network usage like top for NW
+dhclient
+iptables-nft
+openbsd-netcat
+openresolv
+
+# Media
+kodi-addon-inputstream-rtmp
+kodi-addon-inputstream-adaptive
+
+# Hacking
+radare2
+python-pwntools
+binutils
+hashcat
+
+# Language Servers
+ccls                    # C/C++
+
+# Office and Productivity
+arcolinux-teamviewer
+weechat                 # IRC
+freeplane               # Mindmaping tool
+ifuse                   # Filesystem to access contents of an iPhone
+zoom
+obsidian
+obsidian-icon-theme
+
+# Tools
+archiso
+balena-etcher-bin
+bison
+broot
+btop
+devtools
+espeak-ng       # Text to Speach sintethiser
+eza
+fakeroot
+festival        # Text to Speach sintethiser
+festival-us     # Text to Speach sintethiser
+file
+findutils
+fzf
+gawk
+gksu
+grep
+groff
+grsync
+gthumb      # Image browser and Viewer
+gzip
+hardinfo-gtk3
+htop
+keepassxc
+neofetch
+pcmanfm
+pdfarranger
+pkgconf
+python-click
+python-psutil
+python-pyaudio
+python-pynvim
+python-pyxdg
+# qsync - it is installed using yay
+sed
+which
+
+
+# AUR
+# acpilight             # xbacklight replacement based on ACPI
+
+# Wayland
+wlroots
+xorg-xwayland
