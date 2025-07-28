@@ -12,7 +12,7 @@
 This is built with my own settings, packages and look&feel.
 
 This distribution was created using the excelent tutorial by [Eric Dubois](https://www.youtube.com/@ErikDubois)
-You can find the tutorial here: [](https://youtu.be/3jdKH6bLgUE)
+You can find the tutorial here: [The Ultimate ISO building video](https://youtu.be/3jdKH6bLgUE)
 
 KaosArch is my personal choice:
 
