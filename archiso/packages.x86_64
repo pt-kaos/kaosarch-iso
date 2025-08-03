@@ -295,11 +295,11 @@ lm_sensors
 
 ###fonts
 adobe-source-sans-fonts
-awesome-terminal-fonts
-noto-fonts
+#noto-fonts             # Listed in the Awesome needed Packages
+noto-fonts-emoji
 ttf-dejavu
 ttf-droid
-ttf-hack
+#ttf-hack
 ttf-roboto
 ttf-roboto-mono
 ttf-ubuntu-font-family
@@ -350,7 +350,6 @@ p7zip
 pkgfile
 playerctl
 polkit
-polkit-gnome
 qt5ct
 ripgrep
 simple-scan
@@ -389,7 +388,7 @@ surfn-icons-git
 mkinitcpio-openswap
 
 ###utilities
-alacritty
+#alacritty          # Listed in the AWESOME minimum applications
 alacritty-themes
 appstream
 appstream-qt5
@@ -436,12 +435,43 @@ sddm
 ###########################################################################
 ####                           DESKTOP MANAGERS
 ###########################################################################
-
+# AWESOME - MINIMUM CONFIGURATION
+# ####################################
 awesome
-qtile
 #xfce4
 #xfce4-goodies
+alacritty               # Also for qtile
+edu-awesome-git
+autorandr
+awesome
+dmenu                   # Also for qtile
+edu-xfce-git            # Also for qtile
+feh                     # Also for qtile
+lxappearance            # Also for qtile
+noto-fonts
+picom-git               # Also for qtile
+polkit-gnome            # Also for qtile
+rofi                    # Also for qtile
+thunar                  # Also for qtile
+thunar-archive-plugin   # Also for qtile
+thunar-volman           # Also for qtile
+ttf-hack                # Also for qtile
+vicious
+volumeicon              # Also for qtile
+xfce4-terminal          # Also for qtile    # Needed for the drop down terminal
 
+
+# ####################################
+# QTILE - MINIMUM CONFIGURATION
+# ####################################
+qtile
+archlinux-logout-git
+edu-qtile-git
+edu-rofi-git
+edu-rofi-themes-git
+awesome-terminal-fonts
+python-setuptools
+python-psutil
 
 ###########################################################################
 ####                       APPS
@@ -456,7 +486,6 @@ mkinitcpio-firmware
 most
 mugshot
 namcap
-noto-fonts-emoji
 pacmanlogviewer
 pacquery
 python-pylint
@@ -494,7 +523,6 @@ chaotic-mirrorlist
 #edu-surfn-numixs-blue-git
 #edu-vimix-dark-tela-git
 arc-gtk-theme
-archlinux-logout-git
 archlinux-tweak-tool-git
 #edu-arc-dawn-git
 #edu-arc-kde
@@ -532,15 +560,10 @@ xcolor
 autorandr
 #dash
 dmenu
-feh
 gcc
 #lolcat
 make
-picom-git
-polkit-gnome
-rofi
 #sxhkd
-volumeicon
 xorg-xsetroot
 
 ananicy-cpp
@@ -570,10 +593,7 @@ mupdf-tools
 ristretto
 spotify
 spotifywm-git
-thunar
-thunar-archive-plugin
 thunar-media-tags-plugin
-thunar-volman
 thunderbird
 w3m             #Terminal web browser
 whatsapp-nativefier
@@ -585,10 +605,7 @@ conky-lua-archers
 # exo       #XFCE Tool
 gmrun       #Took to run programs. Used in AwesoimeWM
 kvantum
-lxappearance
 papirus-icon-theme
-picom
-vicious                 # Widgets for the awesome Window Manager
 xclip
 xfce4-appfinder
 xfce4-notifyd
@@ -737,7 +754,6 @@ pcmanfm
 pdfarranger
 pkgconf
 python-click
-python-psutil
 python-pyaudio
 python-pynvim
 python-pyxdg

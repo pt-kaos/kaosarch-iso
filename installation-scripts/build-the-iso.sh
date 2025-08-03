@@ -117,7 +117,7 @@ echo
 	#Let us set the desktop"
 	#First letter of desktop is small letter
 
-	desktop="xfce"
+	desktop="awesome"
 
 	kaosarchVersion='v25.07.06.01'
 
